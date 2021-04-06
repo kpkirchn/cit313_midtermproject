@@ -1,6 +1,5 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import Wrapper from "./Wrapper";
 
 function Funko(props) {
     const data = [
@@ -97,7 +96,7 @@ function Funko(props) {
     let name = data[id].name;
     let category = data[id].category;
     let value = data[id].value;
-    let image = data[id]. img;
+    let image = data[id].img;
 
 
     const boxStyle = {

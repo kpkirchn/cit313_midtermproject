@@ -1,6 +1,5 @@
 import React from 'react';
-import Wrapper from "./Wrapper";
-import {NavLink} from "react-router-dom";
+
 
 
 function Box(props){
