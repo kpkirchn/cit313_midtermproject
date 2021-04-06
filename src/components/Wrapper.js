@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 function Wrapper(){
 
-    const data = [
+    const [data] = React.useState( [
         {
             name:"Goku",
             category:"animation",
@@ -88,7 +88,7 @@ function Wrapper(){
             img: "https://images-na.ssl-images-amazon.com/images/I/31R5tyCdCnL._AC_.jpg",
             id: 12
         }
-    ]
+    ]);
 
     const NavLinkStyling={
         position: "absolute",
