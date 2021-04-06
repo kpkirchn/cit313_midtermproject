@@ -1,7 +1,6 @@
 import './App.css';
 import Wrapper from "./components/Wrapper";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Box from "./components/Box";
 import Funko from "./components/Funko";
 
 

@@ -160,7 +160,7 @@ function Wrapper(){
 
 
     let Funko = visual.map((dt, idx)=>
-        <NavLink to={"/Wrapper/"+ dt.id} key={dt.id} >
+        <NavLink to={"/Wrapper/"+ dt.id} key={idx} >
             <button style={boxStyle}>
                 <img src={dt.img} alt={dt.name} width="100%" height="100%" />
                 <h3>Name: {dt.name}</h3>
